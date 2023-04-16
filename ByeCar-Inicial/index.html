@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>ByeCar</title>
+</head>
+<body>
+    <header>
+        <img src="img/dnc.svg" width="50px">
+        <h1>ByeCar</h1>
+    </header>
+    <section>
+        <div class="subSection1">
+            <h2>Ter <span>uma moto </span>por assinatura <br>nunca foi tão fácil!</h2>
+            <img src="img/img-3.png" width="480px" >
+        </div>
+        <div class="subSection2">
+          <img src="img/LeftArrow.svg" width="15px" class="arrow" id="lefttArrow" >
+          <div class="ModalSection"> 
+            <h2>Conheça nossas <span>motos</span>!</h2>
+            <div class="boxModal">
+                <div class="miniModal" id="slide1">
+                    <h3 id="title1">Scooter Elétrica Voltz EV1</h3>
+                    <img src="img/moto1.svg" width="210px" id="img1">
+                    <div class="boxtext">
+                    <p>A partir de <span>$619,90</span></p>
+                    <p class="plan"> plano de 30 meses</p>
+                   </div>
+                </div>
+               <!---- <div class="miniModal" id="slide2">
+                    <h3 id="title2">Honda CB 500X</h3>
+                    <img src="img/moto2.svg" width="320px" id="img2">
+                    <p>A partir de <span>$619,90</span></p>
+                    <p class="plan"> plano de 30 meses</p>
+                </div>-->
+                <button id="open">Saiba mais</button>
+            </div>
+          </div>
+          <img src="img/RightArrow.svg" width="15px" class="arrow" id="rightArrow">
+        </div>
+
+       
+    </section>
+    <div class="ModalBackground" id="modal">
+        <div class="modalContent">
+            <div class="content">
+            <div class="contentMain">
+                <h1 id="modalh3">Scooter Elétrica Voltz EV1</h1>
+                <span id="close">X</span>
+            </div>
+            <p id="modalP">
+                O câmbio de 6 marchas da Voltz EV1 oferece maior confiança
+                e performance na pilotagem, tornando as subidas de marcha mais 
+                leves e as reduções mais suaves!
+            </p>
+            <img src="img/moto1.svg" id="modalImg">
+            <button>Quero assinar!</button>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
